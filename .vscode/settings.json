@@ -1,0 +1,29 @@
+{
+    "AVR.reporter.arguments": [
+        "-G"
+    ],
+    "AVR.source.compiler": "/opt/local/bin/avr-gcc",
+    "AVR.programmer.tool": "/opt/local/bin/avrdude",
+    "AVR.programmer.definitions": "/opt/local/etc/avrdude.conf",
+    "AVR.source.libraries": [
+        "/opt/local/avr/lib"
+    ],
+    "AVR.device.type": "attiny10",
+    "AVR.device.frequency": 128000,
+    "AVR.programmer.type": "usbasp-clone",
+    "AVR.compiler.arguments": [
+        "-g",
+        "-Os",
+        "-Wall",
+        "-Wextra",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-fno-threadsafe-statics",
+        "-pipe",
+        "--param=min-pagesize=0"
+    ],
+    "AVR.listing.enabled": true,
+    "AVR.source.highlight": true,
+    // "AVR.programmer.rate": 2000
+    // "AVR.programmer.arguments": ["-B2000"]
+}
