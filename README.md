@@ -1,1 +1,1 @@
-# attiny10_garland
+Improve your boring garland into a nice differently blinking one with an AT tiny10 mcu and a small transistor that could fit anywhere.
